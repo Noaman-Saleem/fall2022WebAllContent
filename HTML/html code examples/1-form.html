@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h2>Signin</h2>
+
+    <form action="./thankyou.html" method="GET">
+        <label for="name">User Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter Your Name" > <br> <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"> <br> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"> <br> <br>
+
+        <p>Your Gender</p>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <br>
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <br>
+
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <br>
+        <br>
+
+        <label for="city">Select City</label>
+        <select name="city" id="city">
+            <option value="lahore">Lahore</option>
+            <option value="islamabad">Islamabad</option>
+            <option value="murree">Murree</option>
+        </select>
+
+        <br><br>
+
+        <p>Details</p>
+        <textarea name="details" id="" cols="30" rows="5"></textarea>
+        <br><br>
+
+        <input type="color" name="color" id=""><br>
+        <input type="date" name="" id=""><br>
+        <input type="file" name="" id=""><br>
+        <br><br>
+
+        <button>Sign In</button>
+
+        <!-- <input type="submit" value="Sign In"> -->
+    </form>
+</body>
+</html>
