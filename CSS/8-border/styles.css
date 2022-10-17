@@ -1,0 +1,8 @@
+p,img,span{
+    /* border: 4px dotted red; */
+    border-bottom: 2px dashed red;
+    border-left: 4px solid pink;
+    border-top-width: 5px;;
+    border-top-color: yellow;;
+    border-top-style: solid;;
+}

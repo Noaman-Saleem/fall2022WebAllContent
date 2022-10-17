@@ -1,0 +1,26 @@
+h1{
+    border: 2px solid red;
+    /* padding: 50px;
+    padding: 30px 50px;
+    padding: 10px 20px 30px;
+    padding: 40px 30px 40px 30px; */
+
+    /* padding-left: 40px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-right: 40px; */
+
+    /* margin: 50px; */
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+p{
+    border: 7px solid red;
+}
+.para2{
+    margin-top: 60px;
+}
+img{
+    margin-left: 80px;
+}
