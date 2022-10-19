@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+</head>
+
+<body>
+    <!-- 
+        link, visited, hover, active
+        visited
+        hover
+        unvisited
+
+        Form===================
+        input:focus{
+            padding
+            outline
+            border
+        }
+
+        input:required{
+            so select the required input fields
+        }
+
+
+        p:first-child{
+            Is this the first child of its parent element??????
+            Kya yeh apny parent ka phela child hai??????????
+        }
+
+        p:first-of-type{
+            iis k parent ka phela <p> kon hai??????????
+        }
+
+        p:last-child{
+            Kya yeh apny parent ka last child hai?????????
+        }
+
+        p:last-of-type{
+            iis k parent ka last <p> kon hai??????????
+        }
+
+        p:nth-child(2){
+            color:red;
+            Woh <p> jo apny parent ka 2nd child hai us ka color red kro.
+        }
+
+         p:nth-child(2n){
+            color:red;
+            Woh <p> jo apny parent ka (2,4,6,8,10) child hai us ka color red kro.
+                all even
+                n ------ 1 to so on
+        }
+
+         p:nth-child(2n + 1){
+            color:red;
+            Woh <p> jo apny parent ka (2,4,6,8,10) child hai us ka color red kro.
+                All Odd Numbers
+        }
+
+        p:nth-of-type(2){
+            iis ka parent ka sirf 2nd child.
+        }
+
+        p:nth-of-type(2n){
+            iis ka parent ka her 2nd 2nd child.
+            All even Childs
+        }
+
+        p:nth-of-type(2n + 1){
+            All Odd Childs
+        }
+
+        ======================================
+
+        body :not(p){
+            color:blue;
+            Body k andar jo <p> nhe hain un ka color kr do Blue.
+        }
+
+        div:empty{
+            jo <div>s bhi empty hain
+        }
+
+        :root{
+            selects root node HTML
+            same as html{}
+        }
+
+        ==========================================
+        Pseuda Elements
+
+        p::first-letter{
+            font-size:33px;
+            hr <p> ka 1st letter 32px ka ho jye.
+        }
+
+        p::first-line{
+            font-size:33px;
+            hr <p> ki 1st line 32px ka ho jye.
+        }
+
+        p::selection{
+            Jab <p> k text to mouse se highlight kro.
+        }
+        =============================================================
+        p::before{
+            content:"Hello "; This is the must have
+            color:red;   Property of content
+        }
+        p::before{
+            content:"Hello "; This is the must have
+        }
+
+        ::before & ::after can not be used with <img> <br> etc
+     -->
+    <a href="">You Tube</a>
+    <a href="">Go toYou Tube</a>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit accusantium earum corrupti mollitia animi
+        itaque dolorem commodi, consequuntur aliquid tenetur sint odio quibusdam necessitatibus sit saepe sequi fuga
+        obcaecati quis?</p>
+
+    <form action="">
+        <input type="text" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
