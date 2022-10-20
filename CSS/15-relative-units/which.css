@@ -1,0 +1,16 @@
+/* Use rem in case of font-size ---> Responsive otherwise have to use media queries  else */
+
+/* Use em for Padding & Margin   ---> For small screen sizes we usually decrease our font-size, we also wants our margins/paddings to adjust automatically as well */
+
+h1 {
+    /* try different sizes in order to visualize the em responsiveness */
+    /* font-size: 3rem; */
+    /* border: 2px solid black; */
+    /* padding: 1em; */
+}
+
+html {
+    /* ---------- font-size: 10px; --------- */
+    /* font-size: 62.5%; */
+
+}

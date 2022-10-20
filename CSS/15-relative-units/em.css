@@ -1,0 +1,14 @@
+/*font-size --------> em always reference its Parent's size  */
+/*Any other property (padding, margin etc.) --------> em always reference the size of Same element on which this property is applied  */
+
+h1 {
+    /* font-size: 2em; */
+
+    /* border: 2em solid red; */
+    /* Hun Daso  ?????*/
+    /* padding: 3em; */
+}
+
+.box1 {
+    /* font-size: 20px; */
+}
