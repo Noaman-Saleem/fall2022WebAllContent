@@ -1,0 +1,67 @@
+/* section{
+    color: aqua;
+} */
+
+/* section.first-section{
+    color: aqua;
+} */
+
+/* section h1{
+    color: red;
+} */
+
+/* section.second-section h1{
+    color: red;
+} */
+
+/* Descendant Selectors */
+/* section li{
+    background-color: yellow;
+} */
+
+/* section p{
+    background-color: red;
+} */
+
+/* Direct Child */
+/* section.second-section h1{
+    background-color: turquoise;
+} */
+
+/* section.second-section > h1{
+    background-color: turquoise;
+} */
+
+/* Adjacent Selector */
+/* h1,p{
+    background-color: tomato;
+} */
+
+/* h1 + p{
+    background-color: tomato;
+} */
+
+/* ========================================================================== */
+
+/* input[type="text"]{
+    color: white;
+    background-color: brown;
+} */
+
+/* password */
+
+/* a[href="https://www.google.com.pk/"]{
+    background-color: aqua;
+} */
+
+/* a[href *="google"]{
+    background-color: aqua;
+}  */
+
+/* a[href ^="https"]{
+    background-color: rgb(226, 85, 19);
+}  */
+
+/* a[href $=".com/"]{
+    background-color: aqua;
+}  */
