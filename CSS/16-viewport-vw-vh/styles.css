@@ -1,0 +1,22 @@
+/* part 1 */
+.box {
+    background-color: cadetblue;
+    /* width: 50%; */
+    /* height: 50px; */
+
+    /* width: 50vw; */
+    /* height: 50vh; */
+    /* height: 100vh; */
+}
+
+/* part 2 Difference between %  &  vw */
+.container {
+    /* border: 2px solid red; */
+    /* width: 40%; */
+}
+
+.container h1 {
+    /* border: 2px solid green; */
+    /* width: 50%; */
+    /* width: 50vw; */
+}

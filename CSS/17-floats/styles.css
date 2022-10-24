@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    /* border: 2px solid green; */
+}
+
+.one {
+    /* background-color: cadetblue; */
+    /* width: 25%; */
+    /* float: left; */
+    /* padding: 10px; */
+    /* text-align: center; */
+}
+
+.two {
+    /* background-color: chocolate; */
+    /* width: 25%; */
+    /* float: left; */
+    /* padding: 10px; */
+    /* text-align: center; */
+}
+
+.three {
+    /* background-color: yellow; */
+    /* width: 25%; */
+    /* float: left; */
+    /* padding: 10px; */
+    /* text-align: center; */
+}
+
+.four {
+    /* background-color: steelblue; */
+    /* width: 25%; */
+    /* float: left; */
+    /* padding: 10px; */
+    /* text-align: center; */
+}
+
+.clear-fix {
+    /* clear: both; */
+}
