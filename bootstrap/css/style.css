@@ -1,0 +1,57 @@
+.hero {
+    width: 100%;
+    height: 80vh;
+    background: url("https://images.pexels.com/photos/3861458/pexels-photo-3861458.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.services {
+    /* background-color: beige; */
+    /* padding: 30px 0px; */
+    position: relative;
+    top: -100px;
+}
+
+.service {
+    padding: 15px;
+}
+
+.service1 {
+    background-color: #fb414e;
+    color: #fff;
+}
+
+.service2 {
+    background-color: #6643b5;
+    color: #fff;
+}
+
+.service3 {
+    background-color: #202b2f;
+    color: #fff;
+}
+
+.service4 {
+    background-color: #e84a5f;
+    color: #fff;
+}
+
+.service img {
+    width: 80%;
+    /* display: block;
+    margin: 0 auto; */
+    margin-bottom: 20px;
+}
+
+/* Media Query */
+@media screen and (max-width:575px) {
+    body {
+        background-color: palevioletred;
+    }
+
+    .service {
+        margin-bottom: 10px;
+    }
+}
