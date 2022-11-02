@@ -1,0 +1,155 @@
+/* NavBar ----------------------------------------------------------------------------- */
+/* .bg-dark {
+    background-color: tomato !important;
+} */
+
+.navbar-dark {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 90px;
+}
+
+/* .navbar-tomoto {
+    background-color: #e84a5f;
+}*/
+
+/* .nav-link {
+    color: #fff !important;
+} */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-collapse {
+    /* background-color: rgba(0, 0, 0, 0.1); */
+}
+
+
+
+/* .menu-bar {
+    background-color: #1c084b;
+    color: aliceblue;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #e84a5f; */
+/* height: 100%; */
+/* } */
+
+/* .menu-content ul { */
+/* list-style: none; */
+/* display: flex; */
+/* background-color: aquamarine; */
+/* width: 40%; */
+/* justify-content: space-between; */
+/* align-items: center; */
+/* margin-bottom: 0px; */
+/* height: 100%; */
+/* } */
+
+/* .menu-content li { */
+/* margin: 20px; */
+/* border: 1px solid black; */
+/* } */
+
+/* .menu-content a { */
+/* text-decoration: none; */
+/* color: aliceblue; */
+/* } */
+
+
+
+/* Hero ------------------------------------------------------------ */
+.hero {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/3861458/pexels-photo-3861458.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+.hero-content {
+    background-color: #fb414e;
+    position: absolute;
+    width: 35%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #202b2f3a;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+
+/* Services ------------------------------------------------------------------- */
+.services {
+    background-color: beige;
+    padding: 30px 0px;
+    /* position: relative;
+    top: -100px; */
+}
+
+.service {
+    padding: 15px;
+}
+
+.service1 {
+    background-color: #fb414e;
+    color: #fff;
+}
+
+.service2 {
+    background-color: #6643b5;
+    color: #fff;
+}
+
+.service3 {
+    background-color: #202b2f;
+    color: #fff;
+}
+
+.service4 {
+    background-color: #e84a5f;
+    color: #fff;
+}
+
+.service img {
+    width: 50%;
+    /* display: block; */
+    /* margin: 0 auto; */
+    /* margin-bottom: 20px; */
+}
+
+
+/* Contact Page ----------------------------------- */
+.contact-form {
+    padding: 30px 0;
+}
+
+
+/* Media Query */
+@media screen and (max-width:575px) {
+    body {
+        background-color: palevioletred;
+    }
+
+    .service {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .navbar-dark {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    body {
+        background-color: palevioletred;
+    }
+}
