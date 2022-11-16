@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Random Number is : <%= num %></h1>
+    <% if(num % 2 === 0) {%>
+    <h2>Number is EVEN</h2>
+    <% } else { %>
+    <h2>Number is ODD</h2>
+    <% } %>
+
+    <p>Number is <%= num%2 === 0 ? "EVEN" : "ODD" %></p>
+  </body>
+</html>
