@@ -75,7 +75,7 @@ app.get("/blogs/new", (req, res) => {
 app.post("/blogs", (req, res) => {
   // console.log(req.body);
   const { title, image, description } = req.body;
-  blogs.push({ title, image, description });
+  blogs.push({ title, image, description, id: uuidv4() });
   res.redirect("/blogs");
 });
 
